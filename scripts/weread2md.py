@@ -45,7 +45,7 @@ def parse_cookie_string(cookie_string):
 def refresh_token(exception):
     """Cookie 失效时尝试刷新"""
     session.get(WEREAD_URL)
-
+    return True
 
 @retry(stop_max_attempt_number=3, wait_fixed=5000, retry_on_exception=refresh_token)
 def get_bookmark_list(bookId):
