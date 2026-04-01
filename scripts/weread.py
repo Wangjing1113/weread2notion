@@ -399,6 +399,7 @@ if __name__ == "__main__":
     books = get_notebooklist()
     if books != None:
         for index, book in enumerate(books):
+            sort = book["sort"]
             book = book.get("book")
             title = book.get("title")
             cover = book.get("cover").replace("/s_", "/t7_")
