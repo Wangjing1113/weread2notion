@@ -396,13 +396,9 @@ if __name__ == "__main__":
     session.cookies = parse_cookie_string(weread_cookie)
     client = Client(auth=notion_token, log_level=logging.ERROR)
     session.get(WEREAD_URL)
-    latest_sort = get_sort()
     books = get_notebooklist()
     if books != None:
         for index, book in enumerate(books):
-            sort = book["sort"]
-            if sort <= latest_sort:
-                continue
             book = book.get("book")
             title = book.get("title")
             cover = book.get("cover").replace("/s_", "/t7_")
