@@ -15,13 +15,10 @@
 - 套橙皮书一共四本，各有侧重：
 《Claude Code 从入门到精通》教你怎么用，是实战手册。《Claude Code 源码解析》教你它为什么这样设计，拆解 Anthropic 工程团队的架构决策。《Harness Engineering》是方法论，讲的是怎么从「和 AI 聊天」升级到「给 AI 造缰绳」。《Agent Skills》教你扩展 AI 的能力边界，把 Claude Code 变成你的专属工具链。
 
-## AI编程完全指南
+## 01 为什么是Claude Code
 
 - 面向工程师与产品经理的AI编程完全指南，从安装到独立构建产品。
 信息来源：Anthropic官方文档 · Boris Cherny公开分享 · DeepLearning.AI官方课程
-
-### 三年变了三次
-
 - 三步走下来，变的不是技术有多先进，而是你和AI之间的关系。Copilot是你的输入法，Cursor是你的结对伙伴，Claude Code是你的独立工程师团队
 - CLAUDE.md让你把项目知识、编码规范、架构决策写成文件，Claude Code每次启动都会读，相当于给AI一个持久的项目记忆。
 - 实例并行意味着你可以同时让几个Claude Code各自处理不同模块，像一个小团队。
